@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Fantasy Football 2018 Weather etc</title>
+    <!-- Bootstrap core CSS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Risque">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.3/moment.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+</head>
+<!-- NAVBAR
+================================================== -->
+
+<body>
+    <div class="navbar-wrapper">
+        <div class="container">
+            <nav class="navbar navbar-inverse navbar-static-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" id=projectName href="#">Fantasy Football 2018</a>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teams
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="teamList" data-name="ARI" data-city="Glendale, AZ">
+                                        <a href="#">ARI</a>
+                                    </li>
+                                    <li class="teamList" data-name="ATL">
+                                        <a href="#">ATL</a>
+                                    </li>
+                                    <li class="teamList" data-name="BAL">
+                                        <a href="#">BAL</a>
+                                    </li>
+                                    <li class="teamList" data-name="BUF">
+                                        <a href="#">BUF</a>
+                                    </li>
+                                    <li class="teamList" data-name="CAR">
+                                        <a href="#">CAR</a>
+                                    </li>
+                                    <li class="teamList" data-name="CHI">
+                                        <a href="#">CHI</a>
+                                    </li>
+                                    <li class="teamList" data-name="CIN">
+                                        <a href="#">CIN</a>
+                                    </li>
+                                    <li class="teamList" data-name="CLE">
+                                        <a href="#">CLE</a>
+                                    </li>
+                                    <li class="teamList" data-name="DAL">
+                                        <a href="#">DAL</a>
+                                    </li>
+                                    <li class="teamList" data-name="DEN">
+                                        <a href="#">DEN</a>
+                                    </li>
+                                    <li class="teamList" data-name="DET">
+                                        <a href="#">DET</a>
+                                    </li>
+                                    <li class="teamList" data-name="GB">
+                                        <a href="#">GB</a>
+                                    </li>
+                                    <li class="teamList" data-name="HOU">
+                                        <a href="#">HOU</a>
+                                    </li>
+                                    <li class="teamList" data-name="IND" data-city="Indianapolis, IN">
+                                        <a href="#">IND</a>
+                                    </li>
+                                    <li class="teamList" data-name="JAX">
+                                        <a href="#">JAX</a>
+                                    </li>
+                                    <li class="teamList" data-name="KC">
+                                        <a href="#">KC</a>
+                                    </li>
+                                    <li class="teamList" data-name="LAC">
+                                        <a href="#">LAC</a>
+                                    </li>
+                                    <li class="teamList" data-name="LAR">
+                                        <a href="#">LAR</a>
+                                    </li>
+                                    <li class="teamList" data-name="MIA">
+                                        <a href="#">MIA</a>
+                                    </li>
+                                    <li class="teamList" data-name="MIN">
+                                        <a href="#">MIN</a>
+                                    </li>
+                                    <li class="teamList" data-name="NE">
+                                        <a href="#">NE</a>
+                                    </li>
+                                    <li class="teamList" data-name="NO">
+                                        <a href="#">NO</a>
+                                    </li>
+                                    <li class="teamList" data-name="NYG">
+                                        <a href="#">NYG</a>
+                                    </li>
+                                    <li class="teamList" data-name="NYJ">
+                                        <a href="#">NYJ</a>
+                                    </li>
+                                    <li class="teamList" data-name="OAK">
+                                        <a href="#">OAK</a>
+                                    </li>
+                                    <li class="teamList" data-name="PHI">
+                                        <a href="#">PHI</a>
+                                    </li>
+                                    <li class="teamList" data-name="PIT">
+                                        <a href="#">PIT</a>
+                                    </li>
+                                    <li class="teamList" data-name="SEA">
+                                        <a href="#">SEA</a>
+                                    </li>
+                                    <li class="teamList" data-name="SF">
+                                        <a href="#">SF</a>
+                                    </li>
+                                    <li class="teamList" data-name="TB">
+                                        <a href="#">TB</a>
+                                    </li>
+                                    <li class="teamList" data-name="TEN">
+                                        <a href="#">TEN</a>
+                                    </li>
+                                    <li class="teamList" data-name="WAS">
+                                        <a href="#">WAS</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <!--where the team name will display -->
+                <center>
+                    <h1 id=teamName> </h1>
+                </center>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <center>
+                    <h2> Injuries/Inactives </h2>
+                    <br>
+                    <h4>
+                        <div id="myDiv"></div>
+                    </h4>
+                </center>
+            </div>
+            <div class="col-lg-4">
+                <center>
+                    <h2>Team News </h2>
+                    <br>
+                    <h4>
+                        <div id="newsDiv"> </div>
+                    </h4>
+                </center>
+            </div>
+            <div class="col-lg-4">
+                <center>
+                    <h2>Game Weather </h2>
+                    <br>
+                    <div id="weatherDiv"> </div>
+                </center>
+                <div id="sunny" class="sunny"></div>
+                <div id="cloudy" class="cloudy"></div>
+                <div id="rainy" class="rainy"></div>
+                <div id="snowy" class="snowy"></div>
+                <div id="stormy" class="stormy"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="pull-right">
+            <a href="#">Back to top</a>
+        </p>
+        <p>&copy; 2018 FantasyFootball18 TEAM &middot; </p>
+    </footer>
+    </div>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
